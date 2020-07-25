@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>StrayMav</title>
+  </head>
+  <body class="bg-dark text-light text-center d-flex">
+    <div id="popup" class="w-100 center">
+      <h4>All major browsers have blocked autoplay</h4>
+      <h5>This page is to trigger an interaction before the embed loads</h5>
+      <h6 class="text-warning">Click anywhere to continue</h6>
+    </div>
+
+    <div id="twitch-embed" class="w-100 d-none"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
